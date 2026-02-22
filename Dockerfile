@@ -6,7 +6,7 @@ WORKDIR /app
 # Serve static files; Render sets PORT at runtime
 RUN npm install -g serve
 
-COPY presentation.html .
+COPY presentation.html index.html
 
 EXPOSE 10000
 
